@@ -1,0 +1,55 @@
+body {
+    font-family: arial;
+}
+
+.container {
+    width: 420px;
+    height: 420px;
+    position: relative;
+}
+
+.profile {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.france {
+    background: url(france.png);
+}
+
+.kenya {
+    background-image: url(kenya.png);
+}
+
+.lebanon {
+    background: url(lebanon.png);
+}
+
+.top {
+    top: 0%;
+}
+
+.middle {
+    top: 33.333%;
+}
+
+.bottom {
+    top: 66.666%;
+}
+
+.left {
+    left: 0%;
+}
+
+.right {
+    left: 50%;
+}
+
+.flag {
+    background-size: contain;
+    width: 50%;
+    height: 33.34%;
+    position: absolute;
+    opacity: 0.35;
+}
